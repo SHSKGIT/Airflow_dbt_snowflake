@@ -1,7 +1,7 @@
 Airflow + dbt + Snowflake
 
 This project demonstrates how Airflow, dbt, warehouse (such Snowflake) works together to make a data pipeline.
-I don't have a Snowflake account at this point, so not able to configure connection profile in jerrywang_dbt_project/profiles.yml (any db connection properties is defined in here)
+I don't have a Snowflake (licensed) account at this point, so not able to configure connection profile in jerrywang_dbt_project/profiles.yml (any db connection properties is defined in here)
 
 docker-compose.yaml file is fetched from here:  https://airflow.apache.org/docs/apache-airflow/2.3.0/docker-compose.yaml
 and updated to fit this project.
@@ -38,3 +38,15 @@ Trigger dag init_dag to seed data into Snowflake,
 I can't see in Snowflake, but there should be 3 tables appearing in Snowflake
 Then trigger dag transformation_analysis_dag to transform and analyze data on Snowflake,
 there should be 3 views under transform, and 1 view under analysis.
+
+
+For BI data visualization:
+I don't have a Looker (licensed) account.
+Reference: https://cloud.google.com/looker/docs/db-config-snowflake
+
+Basically, the processes are as follow:
+create a Looker user on Snowflake.
+In Looker, create connection to Snowflake.
+Add groups/users in Looker, and assign Snowflake name and value.
+
+Happy being a data engineer \\^.^/
