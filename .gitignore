@@ -1,7 +1,9 @@
 .env
 .gitkeep
 .user.yml
+.DS_Store
 
+.idea/
 target/
 dbt_packages/
 logs/
