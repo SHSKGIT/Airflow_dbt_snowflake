@@ -1,0 +1,12 @@
+jerrywang_dbt_project:
+  target: dev
+  outputs:
+    dev:
+      dbname:
+      host:
+      pass:
+      port:
+      schema:
+      threads: 1
+      type:
+      user:
