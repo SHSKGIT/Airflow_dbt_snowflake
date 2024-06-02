@@ -2,7 +2,7 @@ jerrywang_dbt_project:
   target: dev
   outputs:
     dev:
-      dbname:
+      dbname: OED
       host:
       pass:
       port:
