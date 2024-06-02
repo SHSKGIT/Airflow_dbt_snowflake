@@ -5,6 +5,9 @@ I don't have a Snowflake (licensed) account at this point, so not able to config
 
 docker-compose.yaml file is fetched from here:  https://airflow.apache.org/docs/apache-airflow/2.3.0/docker-compose.yaml
 and updated to fit this project.
+After executing docker compose up --build, open browser and 127.0.0.1:8080 to browse airflow webpage with login both username and password: airflow
+<img width="1905" alt="Screenshot 2024-06-01 at 8 52 38 PM" src="https://github.com/SHSKGIT/Airflow_dbt_snowflake/assets/23388907/b50ce308-4aec-4245-ac6d-283397dea043">
+
 
 The followings are workflow.
 
