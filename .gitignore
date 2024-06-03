@@ -2,6 +2,8 @@ env_var.sh
 .gitkeep
 .user.yml
 .DS_Store
+.env
+.pyc
 
 .idea/
 target/
