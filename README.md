@@ -2,6 +2,7 @@ Airflow + dbt + Snowflake
 
 This project demonstrates how Airflow, dbt, warehouse (such Snowflake) works together to make a data pipeline.
 I don't have a Snowflake (licensed) account at this point, but just using free 30-day account. Any db connection properties is defined in jerrywang_dbt_project/profiles.yml
+To load env vars, source env_var.sh, all values are defined in .env which is supposed to be ignored by git.
 
 docker-compose.yaml file is fetched from here:  https://airflow.apache.org/docs/apache-airflow/2.3.0/docker-compose.yaml
 and updated to fit this project.
