@@ -8,6 +8,7 @@ docker-compose.yaml file is fetched from here:  https://airflow.apache.org/docs/
 and updated to fit this project.
 After executing docker compose up --build, open browser and 127.0.0.1:8080 to browse airflow webpage with login both username and password: airflow
 <img width="1905" alt="Screenshot 2024-06-01 at 8 52 38 PM" src="https://github.com/SHSKGIT/Airflow_dbt_snowflake/assets/23388907/b50ce308-4aec-4245-ac6d-283397dea043">
+<img width="1907" alt="Screenshot 2024-06-02 at 10 12 10 PM" src="https://github.com/SHSKGIT/Airflow_dbt_snowflake/assets/23388907/a2f900ca-4967-4d49-89df-8fbd4fc69ef4">
 
 
 The followings are workflow.
