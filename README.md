@@ -24,10 +24,13 @@ dbt commands:
 <dbt seed> to load CSV files located in the seed-paths directory of dbt project into a data warehouse.
 before seeding, execute: source ../env_var.sh to load environment variables.
 Check if they have been loaded or not on Snowflake db schema:
-
+<img width="918" alt="Screenshot 2024-06-02 at 8 40 28 PM" src="https://github.com/SHSKGIT/Airflow_dbt_snowflake/assets/23388907/cf7e5bf8-5c7b-4957-bd77-ba7f36499521">
+<img width="1906" alt="Screenshot 2024-06-02 at 8 05 13 PM" src="https://github.com/SHSKGIT/Airflow_dbt_snowflake/assets/23388907/a03f8ebf-063d-4809-a17c-085389c778c4">
 Snowsql can help check too, to connect Snowflake, run:
 snowsql -a <account-identifier> -u <username> -o log_level=DEBUG
 <dbt run> to run dbt models. There are 4 models. 
+<img width="942" alt="Screenshot 2024-06-02 at 8 40 44 PM" src="https://github.com/SHSKGIT/Airflow_dbt_snowflake/assets/23388907/bb429e1a-87be-4012-b821-12a8c1f5e3dc">
+<img width="1906" alt="Screenshot 2024-06-02 at 9 21 10 PM" src="https://github.com/SHSKGIT/Airflow_dbt_snowflake/assets/23388907/864fa30b-7911-4492-a86b-c769dad968df">
 
 
 Airflow:
